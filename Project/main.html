@@ -1,32 +1,140 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>practice</title>
-        <link rel="stylesheet" href="prac.css">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="carousel">
-            <button class="carousel__button carousel__button--left">left</button>
-            <div class="carousel__track-container">
-                <ul class="carousel__track">
-                    <li class="carousel__slide">
-                        <img class="carousel__img" src="background-JSS.jpg" alt="slide-1">
-                    </li>
-                    <li class="carousel__slide">
-                        <img class="carousel__img" src="slide2.jpg" alt="slide-2">
-                    </li>
-                    <li class="carousel__slide">
-                        <img class="carousel__img" src="background-JSS.jpg" alt="slide-3">
-                    </li>
-                </ul>
-            </div>
-            <button class="carousel__button carousel__button--right">right</button>
-           <div class="carousel__nav">
-            <button class="carousel__indicator current-slide"></button>
-            <button class="carousel__indicator"></button>
-            <button class="carousel__indicator"></button>
-           </div>
+    <div class="main-page1">
+        <img src="background-JSS.jpg" alt="background" class="back">
+        <div id="nav1div" class="nav1div">
+        <div id="navbutton1" class="navbutton1">
+            <button class="hamburger" id="hamburger" onclick="openNav()">
+                <div class="bar1" id-="bar1"></div>
+                <div class="bar2" id-="bar2"></div>
+                <div class="bar3" id-="bar3"></div>
+            </button>
         </div>
-        <script src="prac.js"></script>
-    </body>
-</html>
+            <div id="navbutton1" class="navbutton1">
+            <button id="but1" class="but1">College of Pharmacy</button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+            <button id="but2" class="but1">Suttur Kshetra</button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but3" class="but1">JSSMVP</button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but3" class="but1">Alumni</button>
+            </div>
+           <div id="navbutton1" class="navbutton1"> <img id="jsslogo" class="jsslogo" src="jsslogoicon.png" alt="logo"></div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but4" class="but1">Virtual campus tour</button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but5" class="but1"> ERP </button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but6" class="but1">NIRF</button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but7" class="but1">Accreditation</button>
+            </div>
+            <div id="navbutton1" class="navbutton1">
+                <button id="but8" class="but1">Contact Us</button>
+            </div>
+    
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <img id="jsslogo2" class="jsslogo2" src="jsslogoicon.png" alt="logo">
+           <button class="closebtn" id="closebtn" onclick="closeNav()">X</button>
+            <a href="#" class="link1">HOME</a>
+            <a href="#" class="link">ADMISSION</a>
+            <a href="#" class="link">ACADEMICS</a>
+            <a href="#" class="link">FACILITIES</a>
+            <a href="#" class="link">STUDENT SUPPORT</a>
+            <a href="#" class="link">RESEARCH</a>
+            <a href="#" class="link">TRAINING & PLACEMENT</a>
+            <a href="#" class="link">IQAC</a>
+            <a href="#" class="link">MORE</a>
+
+        </div>
+      <div class="title-content">
+             <div class="college-name1">JSS MAHAVIDYAPEETHA </div>
+             <div class="college-name2">JSS ACADEMY OF TECHNICAL EDUCATION, NOIDA</div>
+             <div class="college-details"> <div class="line1">Approved by All India Council for Technical Education (AICTE), New Delhi<br></div>
+            <div class="line2"> UG programs are Accredited by National Board of Accreditation (NBA), New Delhi<br> </div>
+             <div class="line3">Affiliated to Dr APJ Abdul Kalam Technical University, Uttar Pradesh, Lucknow</div></div>
+    </div> 
+
+    <div class="carousels">
+        <div class="carousel-item">
+            <div class="slide-image">
+            <img class="carousel-img" src="background-JSS.jpg">
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="slide-image">
+            <img class="carousel-img" src="background-JSS.jpg">
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="slide-image">
+            <img class="carousel-img" src="background-JSS.jpg">
+            </div>
+        </div>
+    </div>
+     
+
+
+    </div>
+<script>
+  function openNav(){
+   // let open=document.getElementById("sidebar");
+   // open.classList.toggle("sidebar-active");
+   document.getElementById("sidebar").style.width="50vw";
+  }
+  function closeNav(){
+    //let close=document.getElementById("sidebar");
+   // close.classList.toggle("sidebar-inactive");
+   document.getElementById("sidebar").style.width="0px";
+  }
+
+  window.onload = function () { 
+    let slides =  
+        document.getElementsByClassName('carousel-item'); 
+  
+    function addActive(slide) { 
+        slide.classList.add('active'); 
+    } 
+  
+    function removeActive(slide) { 
+        slide.classList.remove('active'); 
+    } 
+  
+    addActive(slides[0]); 
+    setInterval(function () { 
+        for (let i = 0; i < slides.length; i++) { 
+            if (i + 1 == slides.length) { 
+                addActive(slides[0]); 
+                setTimeout(removeActive, 350, slides[i]); 
+                break; 
+            } 
+            if (slides[i].classList.contains('active')) { 
+                setTimeout(removeActive, 350, slides[i]); 
+                addActive(slides[i + 1]); 
+                break; 
+            } 
+        } 
+    }, 1500); 
+};
+
+</script>
+</body>
+    </html>
