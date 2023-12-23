@@ -168,38 +168,3 @@ body{
 margin-bottom:10px;
 }
 
-.carousel{
-  position:relative;
-  height:160px;
-  width:270px;
-  background-color:gold;
-  overflow: hidden;
-}
-
-.carousel-item .slide-image{
-  width:270px;
-  height:160px;
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-.carousel-img{
-  height:160px;
-  width:270px;
-}
-.carousel-item{
-  position:absolute;
-  width:100%;
-  top:200px;
-  left: 10%;
-  height:270px;
-  border:none;
-}
-
-.carousel-item.active{
-left:0;
-transition:all 0.3s ease-out;
-}
-
-.carousel div{
-  height:100%;
-}
