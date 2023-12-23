@@ -263,3 +263,22 @@ left:-60px;
     background-color:rgba(255,255,255,0.35);
     box-shadow:4px 4px 6px rgba(0,0,0,0.75);
   }
+  .welcome-div{
+    position:relative;
+    top:-84%;
+  }
+  .content-img-1{
+    width:85%;
+    height:85%;
+    border:none;
+    box-shadow:8px 8px 15px rgba(0, 0, 0, 0.75);
+  }
+  .content-img{
+    flex:1;
+    margin-right:0px;
+    margin-left:60px;
+  }
+  .content-para{
+    flex:1;
+    font-size:24px;
+  }
