@@ -239,4 +239,27 @@ left:-60px;
   justify-content:center;
   margin:12px;
 }
-
+.carousel__indicator{
+  background-color:white;
+  border-radius: 50%;
+  width:12px;
+  height:12px;
+  border:none;
+  margin-right:6px;
+  }
+  .mainpage-2{
+    color:whitesmoke;
+    position: relative;
+    z-index:0;
+    height:110vh;
+  }
+  .welcome-title{
+    display:block;
+    font-size:33px;
+    position:relative;
+    top:-50px;
+    font-weight:bold;
+    text-align:center;
+    background-color:rgba(255,255,255,0.35);
+    box-shadow:4px 4px 6px rgba(0,0,0,0.75);
+  }
