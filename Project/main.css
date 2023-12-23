@@ -282,3 +282,9 @@ left:-60px;
     flex:1;
     font-size:24px;
   }
+  .content{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
