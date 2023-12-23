@@ -221,3 +221,22 @@ margin-bottom:10px;
   border-style:solid;
   border-width:0px;
 }
+.carousel__button:hover{
+  cursor:pointer;
+  background-color:black;
+  color:white;
+}
+.carousel__button--left{
+left:-60px;
+}
+
+.carousel__button--right{
+  right:-70px;
+}
+
+.carousel__nav{
+  display:flex;
+  justify-content:center;
+  margin:12px;
+}
+
