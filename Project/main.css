@@ -407,3 +407,23 @@ left:-60px;
     width:100vw;
     margin-top:1%;
   }
+  .back4{
+    position:relative;
+    opacity:0.4;
+    height:110vh;
+    width:100vw;
+    margin-left:-1%;
+    margin-top:1%;
+  }
+  .facilities-div{
+    position:relative;
+    top:-42em;
+  }
+  .facility-title{
+    font-size:40px;
+    text-align:center;
+    letter-spacing:2px;
+    background-color:rgba(255,255,255,0.35);
+    box-shadow:4px 4px 6px rgba(0,0,0,0.75);
+    width:98vw;
+  }
