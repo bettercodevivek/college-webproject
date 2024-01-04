@@ -536,3 +536,22 @@ left:-60px;
     background:rgba(22, 22, 22, 0.25);
     margin-left:80px;
   }
+  .mail{
+    margin-top:35px;
+  }
+  .footer-content2{
+    position:relative;
+    margin-left:200px;
+    flex:1;
+    position:relative;
+  }
+  .quick-links a{
+    display:block;
+    font-size:21px;
+    color:white;
+    text-decoration:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+  }
