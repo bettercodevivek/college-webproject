@@ -1,7 +1,7 @@
 body{
-    background-color:black;
+    background-color:rgba(0,0,0,1);
     overflow-x:hidden;
-    height:5000px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .jsslogo{
     height:65px;
