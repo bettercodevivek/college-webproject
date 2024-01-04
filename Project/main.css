@@ -75,30 +75,24 @@ html{
   .sidebar{
     overflow-x:hidden;
     height:110vh;
-    position:relative;
-    top:-696px;
-    left:-9px;
+    position:fixed;
+    top:0;
+    left:0;
     width:0px;
     backdrop-filter:blur(20px);
-    z-index:100;
+    z-index:101;
     background-color:rgba(255,255,255,0.35);
     box-shadow:0 1px 12px rgba(0,0,0,0.25);
     border:0px solid rgba(255,255,255,0.3);
-    transition:width 0.5s;
-  }
-  .sidebar-active{
-    width:220px;
-    transition:width 0.35s;
-  }
-  .sidebar-inactive{
-    width:0px;
-    transition:width 0.35s;
+    transition:width 0.40s;
+    overflow-y:scroll;
   }
   .sidebar a{
     display:block;
     margin-bottom:20px;
     padding: 8px 8px 8px 32px;
     font-size:20px;
+    transition:0.2s;
   }
   .link1{
     margin-top:60px;
