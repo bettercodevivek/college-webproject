@@ -3,6 +3,18 @@ body{
     overflow-x:hidden;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+html{
+  scroll-behavior:smooth;
+}
+::-webkit-scrollbar{
+  width:7px;
+}
+::-webkit-scrollbar-thumb{
+  background-color:rgb(212, 209, 209);
+}
+::-webkit-scrollbar-track{
+  background:inherit;
+}
 .jsslogo{
     height:65px;
     margin-left:20px;
