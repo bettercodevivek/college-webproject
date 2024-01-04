@@ -427,3 +427,21 @@ left:-60px;
     box-shadow:4px 4px 6px rgba(0,0,0,0.75);
     width:98vw;
   }
+  .card-container2{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+  }
+  .facility-card{
+    width:28%;
+    height:30vh;
+    margin-right:2px;
+    margin-top:40px;
+    border-radius:15px;
+    text-align:center;
+    background-color:rgba(255,255,255,0.35);
+    box-shadow:2px 4px 12px rgba(0,0,0,0.75);
+    border:0px solid rgba(255,255,255,0.3);
+    backdrop-filter:blur(20px);
+  }
