@@ -42,7 +42,7 @@ html{
     width:102vw;
     height:13vh;
     left:-7.5px;
-    z-index:99;
+    z-index:100;
     top:0px;
     background-color:rgba(255,255,255,0.35);
     box-shadow:0 1px 12px rgba(0,0,0,0.25);
@@ -54,24 +54,23 @@ html{
   margin-left:10px;
 }
 
-.but1:hover{
-  cursor:pointer;
-  border-style:solid;
-  border-width:0px; 
-  padding-top:  35px;
-  padding-bottom:32.5px;
-  background-color:rgba(170, 167, 167, 0.45);
-  color:black;
-  transition-duration:0.2s;
-}
 .but1{
   border:none;
+  display:inline-block;
   background:inherit;
-  color:rgb(39, 39, 39);
+  color:rgb(10, 10, 10);
   padding:10px 10px 10px 12px;
   font-size:15px;
   margin-left:20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.but1:hover{
+  cursor:pointer;
+  box-shadow:4px 4px 6px rgba(0,0,0,0.75);
+  backdrop-filter: blur(20px);
+  background-color:black;
+  color:white;
+  transition-duration: 0.15s;
 }
   .sidebar{
     overflow-x:hidden;
