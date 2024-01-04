@@ -483,3 +483,16 @@ left:-60px;
     margin-left:-1%;
     opacity:0.6;
   }
+  .footer-div{
+    height:100vh;
+    width:100vw;
+    margin-top:2%;
+    margin-left:-1%;
+    margin-bottom:-2%;
+  }
+  .back6{
+    height:100vh;
+    width:100vw;
+    margin-bottom:-2%;
+    opacity:0.4;
+  }
