@@ -463,3 +463,23 @@ left:-60px;
     color:black;
     font-weight:bold;
   }
+  .facility-text2{
+    text-align:justify;
+    width:60%;
+    margin-left:20px;
+    font-size:18px;
+    margin-top:0;
+  }
+  .mainpage-5{
+    height:110vh;
+    width:100vw;
+    margin-top:1%;
+    background-color:black;
+  }
+  .back5{
+    height:110vh;
+    width:100vw;
+    margin-top:1%;
+    margin-left:-1%;
+    opacity:0.6;
+  }
