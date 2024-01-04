@@ -496,3 +496,22 @@ left:-60px;
     margin-bottom:-2%;
     opacity:0.4;
   }
+  .footer{
+    height:115vh;
+    width:100vw;
+    position:relative;
+    top:-96.5%;
+    background-color:rgba(255,255,255,0.35);
+    box-shadow:2px 4px 12px rgba(0,0,0,0.75);
+    border:0px solid rgba(255,255,255,0.3);
+    backdrop-filter:blur(20px);
+    color:white;
+  }
+  .footer-content1{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    height:100%;
+    width:40%;
+  }
