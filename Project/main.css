@@ -334,3 +334,26 @@ left:-60px;
     opacity:0.4;
     z-index:0;
   }
+  .course-div{
+    position:relative;
+    height:100vh;
+    top:-42em;
+  }
+  .course-title{
+    position:relative;
+    height:6em;
+    text-align:center;
+    width:98vw;
+  }
+  .course-titletext{
+    font-size:35px;
+    position:relative;
+    top:1em;
+  }
+  .card-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    height:80%;
+  }
