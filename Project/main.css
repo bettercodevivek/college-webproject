@@ -597,3 +597,24 @@ left:-60px;
     position:relative;
     top:-25px;
   }
+  .up-but{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:60px;
+    padding-right:60px;
+    position:relative;
+    top:-15px;
+    border-radius:15px;
+    background-color:rgb(12, 12, 12);
+    color:white;
+    border-style:solid;
+    border-width:2px;
+    border-color:white;
+    font-size:12px;
+  }
+  .up-but:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+    border-color:black;
+  }
