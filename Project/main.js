@@ -102,3 +102,18 @@ const moveToslide = (track,currentslide,targetslide) =>{
      .pauseFor(4500)
      .deleteAll()
      .start();
+
+     // typing effect mobile
+     var app=document.getElementById("typewriter-js-mobile");
+
+     var type=new Typewriter(app,{
+        loop:true,
+        delay:70
+     })
+     
+     type 
+     .pauseFor(1000)
+     .typeString("WELCOME TO JSSATE, NOIDA")
+     .pauseFor(4500)
+     .deleteAll()
+     .start();
