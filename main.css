@@ -190,8 +190,8 @@ html{
   }
   .closebtn{
     position:relative;
-    top:0px;
-    left:520px;
+    top:0;
+    left:20vw;
     font-weight:bolder;
     border:solid;
     border-width:0px;
