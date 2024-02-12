@@ -1,8 +1,8 @@
 function openNav(){
-    document.getElementById("sidebar").style.width="50vw";
+    document.getElementById("sidebar").style.width="30vw";
    }
    function closeNav(){
-    document.getElementById("sidebar").style.width="0px";
+    document.getElementById("sidebar").style.width="0";
    }
   
    function scrollup(){
