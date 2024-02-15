@@ -82,7 +82,7 @@ html{
     align-items:center;
     justify-content:left;
     width:101%;
-    height:13vh;
+    height:12vh;
     left:-7.5px;
     z-index:100;
     top:0px;
@@ -213,13 +213,13 @@ html{
     text-align: center;
     position:relative;
     left:-40px;
-    margin-bottom:16px;
+    margin-top:5vh;
   }
   .college-name2{
     font-size:28px;
     width:740px;
     margin-left:-90px;
-    margin-bottom:20px;
+    margin-bottom:2vh;
   }
 .college-details{
   margin-left:-60px;
@@ -242,7 +242,7 @@ margin-bottom:10px;
   height:49.5vh;
   width:58vw;
   margin:0 auto;
-  top:-76%;
+  top:-80%;
   background-color:rgb(0,0,0);
   box-shadow: inset 3px 3px 4px rgba(0,0,0,0.75);
   border-style:solid;
